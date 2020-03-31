@@ -1,0 +1,25 @@
+[debug] [2020-03-29T17:38:18.696Z] ----------------------------------------------------------------------
+[debug] [2020-03-29T17:38:18.698Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aiordache\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-03-29T17:38:18.699Z] CLI Version:   7.16.1
+[debug] [2020-03-29T17:38:18.699Z] Platform:      win32
+[debug] [2020-03-29T17:38:18.699Z] Node Version:  v13.12.0
+[debug] [2020-03-29T17:38:18.700Z] Time:          Sun Mar 29 2020 20:38:18 GMT+0300 (Eastern European Summer Time)
+[debug] [2020-03-29T17:38:18.700Z] ----------------------------------------------------------------------
+[debug] [2020-03-29T17:38:18.700Z] 
+[debug] [2020-03-29T17:38:18.708Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-29T17:38:18.708Z] > authorizing via signed-in user
+[debug] [2020-03-29T17:38:18.708Z] [iam] checking project quarantine-cook for permissions ["firebase.projects.get"]
+[debug] [2020-03-29T17:38:18.711Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/quarantine-cook:testIamPermissions  
+
+[debug] [2020-03-29T17:38:19.737Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-29T17:38:19.740Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/quarantine-cook  
+ 
+[debug] [2020-03-29T17:38:20.238Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\aiordache\Desktop\quarantine-cook'...
+[info] 
+[debug] [2020-03-29T17:38:20.248Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/quarantine-cook/webApps/-/config  
+ 
+[debug] [2020-03-29T17:38:21.188Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
